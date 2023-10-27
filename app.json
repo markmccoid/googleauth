@@ -15,8 +15,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "REVERSED_CLIENT_ID": "com.googleusercontent.apps.636500952504-vf4rja6uh1sfj3p137554c2rsg5qi6ha",
+        "GIDServerClientID": "636500952504-vf4rja6uh1sfj3p137554c2rsg5qi6ha.apps.googleusercontent.com"
+      }
     },
+    "plugins": ["@react-native-google-signin/google-signin"],
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
