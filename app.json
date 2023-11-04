@@ -17,16 +17,20 @@
     "ios": {
       "supportsTablet": true,
       "infoPlist": {
-        "REVERSED_CLIENT_ID": "com.googleusercontent.apps.636500952504-vf4rja6uh1sfj3p137554c2rsg5qi6ha",
-        "GIDServerClientID": "636500952504-vf4rja6uh1sfj3p137554c2rsg5qi6ha.apps.googleusercontent.com"
-      }
+        "reservedClientId": "com.googleusercontent.apps.636500952504-vf4rja6uh1sfj3p137554c2rsg5qi6ha",
+        "clientId": "636500952504-vf4rja6uh1sfj3p137554c2rsg5qi6ha.apps.googleusercontent.com"
+      },
+      "bundleIdentifier": "com.markmccoid.googleauth"
     },
-    "plugins": ["@react-native-google-signin/google-signin"],
+    "plugins": [
+      "@react-native-google-signin/google-signin"
+    ],
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.markmccoid.googleauth"
     },
     "web": {
       "favicon": "./assets/favicon.png"
